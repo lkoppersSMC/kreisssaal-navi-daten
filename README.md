@@ -1,11 +1,13 @@
-# kreisssaal-navi-daten
-Hier finden Sie die Daten, die dem Kreißsaal-Navigator (https://kreisssaal-navi.de/) zugundeliegen. Sie finden zwei maschienenlesbare Dateien:
+# Daten des Kreißsaal-Navi
+Hier finden Sie die Daten, die dem Kreißsaal-Navigator (https://kreisssaal-navi.de/) zugundeliegen. Sie finden zwei Dateien:
     
-* kreissaal-navi-daten_excel-kompatibel.csv kann ohne Weiteres mit Excel in europäischen Standardeinstlungen geöffnet werden.
-* kreissaal-navi-daten_true-csv.csv ist eine herkömmliche CSV-Datein und eignet sich besonders zur maschinellen Weiterverarbeitung.
+* kreisssaal-navi-daten_excel-kompatibel.csv kann ohne Weiteres mit Excel in europäischen Standardeinstlungen geöffnet werden.
+* kreisssaal-navi-daten_true-csv.csv ist eine herkömmliche CSV-Datein und eignet sich besonders zur maschinellen Weiterverarbeitung.
+
+Nutzen Sie die Daten gern für eigene Recherchen, Datenanalysen und Grafiken; geben Sie dabei immer folgenden Quellenverweis an: G-BA, IQTIG, Recherchen des Science Media Center Germany.
 
 Der Kreißsaal-Navigator ist aus einem Rechercheprojekt des Science Media Center Germany (SMC) entstanden – einer unabhängigen und gemeinwohlorientierten Redaktion, die Journalistinnen und Journalisten bei der Berichterstattung über Themen mit Wissenschaftsbezug unterstützt.
-* Alles zur Recherche: https://www.sciencemediacenter.de/alle-angebote/investigative/details/news/wie-finden-eltern-eine-gute-geburtsklinik/
+* Zur Recherche: https://www.sciencemediacenter.de/alle-angebote/investigative/details/news/wie-finden-eltern-eine-gute-geburtsklinik/
 * Mehr Informationen zum SMC: https://www.sciencemediacenter.de
 
 
@@ -95,19 +97,19 @@ Außerdem umfasst der Datensatz folgende Spalten:
 
 * Klinik-ID_2018 und Klinik-ID_2019
 
-    Ein uniquie Identifier für jede Klinik bestehend aus der IK- und Standortnummer, mit denen die Qualitätsberichte arbeiten.
+    Bestehend aus der IK- und Standortnummer, mit denen die Qualitätsberichte arbeiten. Format: [IK]-[Standort]
     
-    Für einige Kliniken haben sich die IK- und Standortnummer von 2018 zu 2019 geändert.
+    Für einige Kliniken haben sich die IK- und Standortnummer von 2018 zu 2019 geändert. Zur besseren Zuordnung sind beide Jahre aufgeführt.
     
-    Besonderheit: Die Berliner Charité meldet unter einer IK- und Standortnummer, führt im Bericht jedoch Informationen für mehrere Standorte auf, die in diesen Daten einzeln aufgeführt werden. Die Klinik-ID wurde deshalb um das Kürzel des Standorts ergänzt.
+    Besonderheit: Die Berliner Charité meldet ihre Qulitätsberichte für mehrere Standorte unter einer IK- und Standortnummer, schlüsselt im Bericht jedoch Informationen für die Standorte auf. Die Klinik-ID wurde deshalb um das Kürzel des Standorts ergänzt.
 
 * Adresse und Klinikort
 
-    Adresse und Klinikort wurden in der Umfrage angegeben. Für Kliniken, die nicht teilgenommen haben, ist keine Adresse bekannt. In diesem Fall wurde der Klinikort aus den Qualitätsberichten entnommen. 
+    Adresse und Ort wurden in der Umfrage angegeben. Für Kliniken, die nicht teilgenommen haben, ist keine Adresse bekannt. In diesem Fall wurde der Klinikort aus den Qualitätsberichten entnommen. 
 
 * teilgenommen
 
-    Angabe, ob die Klinik an der Umfrage teilgenommen hat.
+    Angabe, ob die Klinik an unserer Umfrage teilgenommen hat.
 
 * Hebammen_VK und VK_Angabe
 
